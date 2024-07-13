@@ -20,6 +20,8 @@
   "dependencies": {
     "@babel/runtime": "^7.24.7",
     "@vue-mini/core": "^1.0.0",
+    "axios-miniprogram": "^2.7.2",
+    "dayjs": "^1.11.11",
     "promise-polyfill": "^8.3.0"
   },
   "devDependencies": {
