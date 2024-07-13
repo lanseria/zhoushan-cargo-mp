@@ -1,38 +1,49 @@
 {
   "darkmode": true,
-  "themeLocation": "theme.json",
+  "lazyCodeLoading": "requiredComponents",
   "pages": [
-    "pages/home/index",
-    "pages/mine/index"
+    "pages/tabbar/home/index",
+    "pages/tabbar/preference/index",
+    "pages/tabbar/customer_service/index",
+    "pages/tabbar/usercenter/index"
   ],
-  "window": {
-    "navigationBarBackgroundColor": "@bgColor",
-    "navigationBarTextStyle": "@style",
-    "navigationBarTitleText": "zhoushan-cargo-mp",
-    "backgroundColor": "@bgColor",
-    "backgroundColorTop": "@bgColor",
-    "backgroundColorBottom": "@bgColor"
-  },
+  "sitemapLocation": "sitemap.json",
   "tabBar": {
-    "color": "@color",
-    "selectedColor": "@color",
-    "backgroundColor": "@bgColor",
-    "borderStyle": "@style",
+    "borderStyle": "@tabBarBorderStyle",
+    "color": "@tabBarColor",
     "list": [
       {
-        "text": "主页",
-        "pagePath": "pages/home/index",
-        "iconPath": "@homeIcon",
-        "selectedIconPath": "@homeSelectedIcon"
+        "iconPath": "@iconPathHome",
+        "pagePath": "pages/tabbar/home/index",
+        "selectedIconPath": "@selectedIconPathHome",
+        "text": "首页"
       },
       {
-        "text": "我",
-        "pagePath": "pages/mine/index",
-        "iconPath": "@mineIcon",
-        "selectedIconPath": "@mineSelectedIcon"
+        "iconPath": "@iconPathPreference",
+        "pagePath": "pages/tabbar/preference/index",
+        "selectedIconPath": "@selectedIconPathPreference",
+        "text": "舟山优选"
+      },
+      {
+        "iconPath": "@iconPathCustomerService",
+        "pagePath": "pages/tabbar/customer_service/index",
+        "selectedIconPath": "@selectedIconPathCustomerService",
+        "text": "客服"
+      },
+      {
+        "iconPath": "@iconPathUsercenter",
+        "pagePath": "pages/tabbar/usercenter/index",
+        "selectedIconPath": "@selectedIconPathUsercenter",
+        "text": "我的"
       }
-    ]
+    ],
+    "selectedColor": "@tabBarSelectedColor"
   },
-  "sitemapLocation": "sitemap.json",
-  "lazyCodeLoading": "requiredComponents"
+  "themeLocation": "theme.json",
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "舟山汽运"
+  }
 }

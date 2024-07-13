@@ -1,20 +1,38 @@
 {
-  "light": {
-    "style": "black",
-    "color": "#181818",
-    "bgColor": "#ffffff",
-    "homeIcon": "/images/home-light.png",
-    "homeSelectedIcon": "/images/home-light-selected.png",
-    "mineIcon": "/images/mine-light.png",
-    "mineSelectedIcon": "/images/mine-light-selected.png"
-  },
   "dark": {
-    "style": "white",
-    "color": "#ffffff",
-    "bgColor": "#181818",
-    "homeIcon": "/images/home-dark.png",
-    "homeSelectedIcon": "/images/home-dark-selected.png",
-    "mineIcon": "/images/mine-dark.png",
-    "mineSelectedIcon": "/images/mine-dark-selected.png"
+    "backgroundColor": "#1F1F1F",
+    "backgroundTextStyle": "light",
+    "iconPathCustomerService": "static/tabbar/icon_customer_service.png",
+    "iconPathHome": "static/tabbar/icon_home.png",
+    "iconPathPreference": "static/tabbar/icon_preference.png",
+    "iconPathUsercenter": "static/tabbar/icon_user_center.png",
+    "navigationBarBackgroundColor": "#1F1F1F",
+    "navigationBarTextStyle": "white",
+    "selectedIconPathCustomerService": "static/tabbar/icon_customer_service_HL.png",
+    "selectedIconPathHome": "static/tabbar/icon_home_HL.png",
+    "selectedIconPathPreference": "static/tabbar/icon_preference_HL.png",
+    "selectedIconPathUsercenter": "static/tabbar/icon_user_center_HL.png",
+    "tabBarBackgroundColor": "#1F1F1F",
+    "tabBarBorderStyle": "white",
+    "tabBarColor": "#FFFFFF",
+    "tabBarSelectedColor": "#51A937"
+  },
+  "light": {
+    "backgroundColor": "#FFFFFF",
+    "backgroundTextStyle": "dark",
+    "iconPathCustomerService": "static/tabbar/icon_customer_service.png",
+    "iconPathHome": "static/tabbar/icon_home.png",
+    "iconPathPreference": "static/tabbar/icon_preference.png",
+    "iconPathUsercenter": "static/tabbar/icon_user_center.png",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTextStyle": "black",
+    "selectedIconPathCustomerService": "static/tabbar/icon_customer_service_HL.png",
+    "selectedIconPathHome": "static/tabbar/icon_home_HL.png",
+    "selectedIconPathPreference": "static/tabbar/icon_preference_HL.png",
+    "selectedIconPathUsercenter": "static/tabbar/icon_user_center_HL.png",
+    "tabBarBackgroundColor": "#FFFFFF",
+    "tabBarBorderStyle": "black",
+    "tabBarColor": "#646566",
+    "tabBarSelectedColor": "#1989FA"
   }
 }
