@@ -12,8 +12,9 @@
     "lint:fix": "eslint . --fix",
     "lint:style": "stylelint \"src/**/*.css\"",
     "type-check": "tsc",
-    "dev": "cross-env NODE_ENV=development node build.js",
+    "dev": "concurrently \"npm run dev:vue-mini\" \"npm run dev:unocss\"",
     "build": "npm run unocss:build && cross-env NODE_ENV=production node build.js",
+    "dev:vue-mini": "cross-env NODE_ENV=development node build.js && nr dev:unocss",
     "dev:unocss": "unocss src/pages/**/*.html -c unocss.config.js --watch -o src/app.css",
     "build:unocss": "unocss src/pages/**/*.html -c unocss.config.js -o src/app.css"
   },
@@ -42,6 +43,7 @@
     "babel-plugin-module-resolver": "^5.0.2",
     "babel-plugin-transform-inline-environment-variables": "^0.4.4",
     "chokidar": "^3.6.0",
+    "concurrently": "^8.2.2",
     "cross-env": "^7.0.3",
     "eslint": "^9.7.0",
     "eslint-plugin-format": "^0.1.2",
