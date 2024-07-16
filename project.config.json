@@ -1,59 +1,64 @@
 {
+  "appid": "wx5e26648b1988dd22",
+  "compileType": "miniprogram",
+  "condition": {},
   "description": "项目配置文件",
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  },
+  "libVersion": "development",
   "miniprogramRoot": "dist/",
   "packOptions": {
     "ignore": [],
     "include": []
   },
+  "projectname": "zhoushan-cargo-mp",
   "setting": {
-    "urlCheck": false,
-    "es6": false,
-    "enhance": false,
-    "postcss": false,
-    "preloadBackgroundData": false,
-    "minified": false,
-    "newFeature": true,
-    "coverView": true,
-    "nodeModules": false,
     "autoAudits": false,
-    "showShadowRootInWxmlPanel": false,
-    "scopeDataCheck": false,
-    "uglifyFileName": false,
-    "checkInvalidKey": true,
-    "checkSiteMap": true,
-    "uploadWithSourceMap": false,
-    "compileHotReLoad": true,
-    "lazyloadPlaceholderEnable": false,
-    "useMultiFrameRuntime": true,
-    "useApiHook": true,
-    "useApiHostProcess": true,
     "babelSetting": {
-      "ignore": [],
       "disablePlugins": [],
+      "ignore": [],
       "outputPath": ""
     },
-    "useIsolateContext": false,
-    "userConfirmedUseIsolateContext": false,
-    "userConfirmedBundleSwitch": false,
-    "packNpmManually": false,
-    "packNpmRelationList": [],
-    "minifyWXSS": true,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "compileHotReLoad": true,
+    "coverView": true,
     "disableUseStrict": false,
+    "enhance": false,
+    "es6": false,
+    "ignoreUploadUnusedFiles": true,
+    "lazyloadPlaceholderEnable": false,
+    "minified": false,
     "minifyWXML": true,
+    "minifyWXSS": true,
+    "newFeature": true,
+    "nodeModules": false,
+    "packNpmManually": true,
+    "packNpmRelationList": [
+      {
+        "packageJsonPath": "./package.json",
+        "miniprogramNpmDistDir": "./miniprogram/"
+      }
+    ],
+    "postcss": false,
+    "preloadBackgroundData": false,
+    "scopeDataCheck": false,
     "showES6CompileOption": false,
+    "showShadowRootInWxmlPanel": false,
+    "uglifyFileName": false,
+    "uploadWithSourceMap": false,
+    "urlCheck": false,
+    "useApiHook": true,
+    "useApiHostProcess": true,
     "useCompilerPlugins": false,
-    "ignoreUploadUnusedFiles": true
+    "useIsolateContext": false,
+    "useMultiFrameRuntime": true,
+    "userConfirmedBundleSwitch": false,
+    "userConfirmedUseIsolateContext": false
   },
-  "compileType": "miniprogram",
-  "libVersion": "development",
-  "appid": "wx5e26648b1988dd22",
-  "projectname": "zhoushan-cargo-mp",
-  "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
-  "condition": {},
-  "srcMiniprogramRoot": "dist/",
-  "editorSetting": {
-    "tabIndent": "insertSpaces",
-    "tabSize": 2
-  }
+  "simulatorType": "wechat",
+  "srcMiniprogramRoot": "dist/"
 }

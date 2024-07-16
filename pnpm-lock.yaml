@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@babel/runtime':
-        specifier: ^7.24.7
-        version: 7.24.8
       '@vant/weapp':
         specifier: ^1.11.6
         version: 1.11.6
@@ -42,6 +39,9 @@ importers:
       '@babel/preset-typescript':
         specifier: ^7.24.7
         version: 7.24.7(@babel/core@7.24.8)
+      '@babel/runtime':
+        specifier: ^7.24.7
+        version: 7.24.8
       '@babel/traverse':
         specifier: ^7.24.7
         version: 7.24.8

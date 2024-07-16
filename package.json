@@ -19,7 +19,6 @@
     "build:unocss": "unocss src/pages/**/*.html -c unocss.config.js -o src/app.css"
   },
   "dependencies": {
-    "@babel/runtime": "^7.24.7",
     "@vant/weapp": "^1.11.6",
     "@vue-mini/core": "^1.0.0",
     "axios-miniprogram": "^2.7.2",
@@ -27,6 +26,7 @@
     "promise-polyfill": "^8.3.0"
   },
   "devDependencies": {
+    "@babel/runtime": "^7.24.7",
     "@antfu/eslint-config": "^2.22.0",
     "@babel/core": "^7.24.7",
     "@babel/plugin-transform-runtime": "^7.24.7",
